@@ -1,0 +1,76 @@
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(98, 149, 132);
+    overflow: hidden;
+    text-align: center;
+}
+ul.menu li {
+    display: inline;
+}
+ul.menu li a {
+    display: inline-block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+ul.menu li a:hover {
+    background-color: #575757;
+}
+
+#logo{
+    margin-top: 15px;
+    width: 60px;
+}
+
+#portada{
+    width: 100%; 
+    height: 300px;
+}
+
+#texto1{
+   margin-left: 400px;
+}
+
+#oceanos{
+   width: 95%;
+    height: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#texto2{
+    margin-left: 400px;
+}
+
+#titulo1{
+    color:rgb(98, 149, 132);
+}
+
+#mundo{
+    border-radius: 400px;
+    width: 200px;
+    height: 190px;
+       
+}
+#fotoytexto{
+    display:flex;
+}
+#texto3{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#tresR{
+    background-color:rgb(98, 149, 132);
+    
+}
+#reduce{
+    text-align: center;
+    color:#f4f4f4;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
