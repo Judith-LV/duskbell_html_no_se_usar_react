@@ -42,6 +42,12 @@ table > tr > td{
     height: 200px;
 }
 
+#fila1{
+    display: flex;
+    justify-content: center;
+    
+}
+
 #redonda_azul{
     border-radius: 100px;
     height: 50px;
@@ -52,11 +58,12 @@ table > tr > td{
 
 #cuadrado_azul{
     border-radius: 25px;
-    height: 200px;
+    height: 220px;
     width: 300px;
     border: 2px solid rgb(68, 6, 255);
     background-color: rgb(6, 197, 255);
     margin-top: 20px;
+    display: inline-block;
 }
 #text_blue{
     margin: 10px;
@@ -72,9 +79,117 @@ table > tr > td{
 
 #cuadrado_verde{
     border-radius: 25px;
-    height: 300px;
-    width: 250px;
+    height: 220px;
+    width: 300px;
     border: 2px solid rgb(62, 113, 3);
     background-color: rgb(15, 185, 44);
     margin-top: 20px;
+    margin-left: 10px;
+    
+}
+#text_green{
+    margin: 10px;
+}
+
+#cuadrado_amarillo{
+    border-radius:25px;
+    height: 220px;
+    width: 300px;
+    border: 2px solid rgba(165, 165, 4, 0.584);
+    background-color: rgba(255, 255, 0, 0.833);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#redonda_amarilla{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(226, 201, 6);
+    margin: 10px;
+}
+#text_yellow{
+    margin:10px;
+}
+
+#cuadrado_naranja{
+    border-radius:25px;
+    height: 220px;
+    width: 300px;
+    border: 2px solid rgb(229, 138, 11, 0.604);
+    background-color: rgb(254, 140, 0, 0.685);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#redonda_naranja{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 123, 0);
+    margin: 10px;
+}
+#tex_naranja{
+    margin: 10px;
+}
+
+#fila2{
+    display: flex;
+    justify-content: center;
+}
+
+#cuadrado_marron{
+    border-radius:25px;
+    height: 240px;
+    width: 300px;
+    border: 2px solid  rgb(185, 122, 87);
+    background-color: rgb(240, 158, 113);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#redonda_marron{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(185, 122, 87);
+    margin: 10px;
+}
+#text_marron{
+    margin: 10px;
+}
+#cuadrado_gris{
+    border-radius:25px;
+    height: 240px;
+    width: 300px;
+    border: 2px solid  rgb(127, 127, 127);
+    background-color: rgb(195, 195, 195);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#redonda_gris{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(127, 127, 127);
+    margin: 10px;
+}
+#text_gris{
+    margin: 10px;
+}
+#cudrado_deixalleria{
+    border-radius:25px;
+    height: 240px;
+    width: 300px;
+    border: 2px solid  rgb(97, 97, 97);
+    background-color: rgb(161, 161, 161);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#redonda_deixalleria{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(127, 127, 127);
+    margin: 10px;
+}
+#text_deixalleria{
+    margin: 10px;
 }
